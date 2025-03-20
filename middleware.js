@@ -38,11 +38,6 @@ export default async (req, res, next) => {
   // Отладочный вывод для всех запросов
   console.log(`[Запрос]: ${req.method} ${req.path}`);
   
-  // Добавляем CORS заголовки для всех запросов
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization, X-User-Role');
-  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-  
   // Предварительные запросы OPTIONS
   if (req.method === 'OPTIONS') {
     return res.sendStatus(200);
