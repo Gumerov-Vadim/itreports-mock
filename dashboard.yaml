@@ -1,0 +1,10 @@
+name: itreports-mock-api
+type: backend
+env: node
+buildCommand: npm install
+startCommand: npm start
+envVars:
+  - key: PORT
+    value: "5119"
+  - key: ALLOWED_ORIGINS
+    sync: false 
