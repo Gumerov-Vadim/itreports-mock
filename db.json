@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user123",
+      "role": "user"
+    }
+  ],
+  "violationTypes": [
+    {
+      "id": 1,
+      "name": "Нарушение безопасности персональных данных",
+      "adminOnly": true
+    },
+    {
+      "id": 2,
+      "name": "Утечка конфиденциальной информации",
+      "adminOnly": true
+    },
+    {
+      "id": 3,
+      "name": "Нелицензионное ПО",
+      "adminOnly": false
+    },
+    {
+      "id": 4,
+      "name": "Нарушение политики паролей",
+      "adminOnly": false
+    },
+    {
+      "id": 5,
+      "name": "Неавторизованный доступ",
+      "adminOnly": false
+    },
+    {
+      "id": 6,
+      "name": "Вредоносное ПО",
+      "adminOnly": false
+    },
+    {
+      "id": 7,
+      "name": "Отсутствие резервных копий",
+      "adminOnly": false
+    },
+    {
+      "id": 8,
+      "name": "Нарушение сетевой безопасности",
+      "adminOnly": false
+    },
+    {
+      "id": 9,
+      "name": "Устаревшее ПО",
+      "adminOnly": false
+    },
+    {
+      "id": 10,
+      "name": "Отсутствие двухфакторной аутентификации",
+      "adminOnly": false
+    },
+    {
+      "id": 11,
+      "name": "Уязвимости в программном обеспечении",
+      "adminOnly": false
+    },
+    {
+      "id": 12,
+      "name": "Нерегулярное обновление систем",
+      "adminOnly": false
+    },
+    {
+      "id": 13,
+      "name": "Отсутствие шифрования данных",
+      "adminOnly": false
+    },
+    {
+      "id": 14,
+      "name": "Несоблюдение регламентов безопасности",
+      "adminOnly": false
+    },
+    {
+      "id": 15,
+      "name": "Передача учетных данных сторонним лицам",
+      "adminOnly": false
+    },
+    {
+      "id": 16,
+      "name": "Слабая физическая защита оборудования",
+      "adminOnly": false
+    },
+    {
+      "id": 17,
+      "name": "Отсутствие аудита действий пользователей",
+      "adminOnly": false
+    },
+    {
+      "id": 18,
+      "name": "Неэффективное управление правами доступа",
+      "adminOnly": false
+    },
+    {
+      "id": 19,
+      "name": "Отсутствие антивирусной защиты",
+      "adminOnly": false
+    },
+    {
+      "id": 20,
+      "name": "Использование общих учетных записей",
+      "adminOnly": false
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "violationType": 3,
+      "inspectionResult": "Не выявлено",
+      "applicationDate": "2025-02-01T10:30:00.000Z",
+      "status": "Завершено"
+    },
+    {
+      "id": 2,
+      "violationType": 3,
+      "inspectionResult": "Не выявлено",
+      "applicationDate": "2025-02-15T14:20:00.000Z",
+      "status": "Завершено"
+    },
+    {
+      "id": 3,
+      "violationType": 4,
+      "inspectionResult": "Выявлено",
+      "applicationDate": "2025-03-01T09:15:00.000Z",
+      "status": "Завершено"
+    },
+    {
+      "id": 4,
+      "violationType": 4,
+      "inspectionResult": "Не выявлено",
+      "applicationDate": "2025-03-15T11:45:00.000Z",
+      "status": "Завершено"
+    },
+    {
+      "id": 5,
+      "violationType": 5,
+      "inspectionResult": "Выявлено",
+      "applicationDate": "2025-04-01T13:25:00.000Z",
+      "status": "Завершено"
+    },
+    {
+      "id": 6,
+      "violationType": 5,
+      "inspectionResult": "Не выявлено",
+      "applicationDate": "2025-04-15T08:10:00.000Z",
+      "status": "Завершено"
+    },
+    {
+      "id": 7,
+      "violationType": 6,
+      "inspectionResult": "Выявлено",
+      "applicationDate": "2025-05-01T16:40:00.000Z",
+      "status": "Завершено"
+    },
+    {
+      "id": 8,
+      "violationType": 6,
+      "inspectionResult": "Не выявлено",
+      "applicationDate": "2025-05-08T11:20:00.000Z",
+      "status": "Завершено"
+    },
+    {
+      "id": 9,
+      "violationType": 7,
+      "inspectionResult": "Выявлено",
+      "applicationDate": "2025-05-15T09:35:00.000Z",
+      "status": "Завершено"
+    },
+    {
+      "id": 10,
+      "violationType": 7,
+      "inspectionResult": "Не выявлено",
+      "applicationDate": "2025-05-20T14:50:00.000Z",
+      "status": "Завершено"
+    },
+    {
+      "id": 11,
+      "violationType": 8,
+      "inspectionResult": "Выявлено",
+      "applicationDate": "2025-05-25T10:15:00.000Z",
+      "status": "Завершено"
+    },
+    {
+      "id": 12,
+      "violationType": 8,
+      "inspectionResult": "Не выявлено",
+      "applicationDate": "2025-05-30T13:30:00.000Z",
+      "status": "Завершено"
+    },
+    {
+      "id": 13,
+      "violationType": 2,
+      "inspectionResult": "Выявлено",
+      "applicationDate": "2025-06-01T11:45:00.000Z",
+      "status": "Завершено"
+    },
+    {
+      "id": 14,
+      "violationType": 1,
+      "inspectionResult": "Не выявлено",
+      "applicationDate": "2025-06-05T14:20:00.000Z",
+      "status": "Завершено"
+    }
+  ]
+}
